@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="check_box_preference_1"
+        android:summary="asdfasdfasdf asdfasdfasdf asdfasdfasdf asdfasdfasdfasdf asdfasdfasdfasdf asdfasdfasdf"
+        android:title="Check box preference rrrrrrrr rrrrrrrrr rrrrrrrrrrrrrrr rrrrrrrrrrrrrrrrrrrrrr" />
+
+    <EditTextPreference
+        android:defaultValue="123"
+        android:key="edit_text_preference_1"
+        android:numeric="integer"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Edit text preference" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_preference_1"
+        android:title="Switch preference" />
+
+    <PreferenceCategory android:title="Preference category">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="check_box_preference_2"
+            android:title="Check box preference" />
+    </PreferenceCategory>
+</PreferenceScreen>

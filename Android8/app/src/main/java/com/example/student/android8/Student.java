@@ -1,9 +1,9 @@
-package com.example.student.android6;
+package com.example.student.android8;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 
-public class Student implements  Parcelable{
+public class Student implements Parcelable {
 
     public static final String TABLE_NAME = "Students";
     public static final String COLUMN_ID = "_id";
